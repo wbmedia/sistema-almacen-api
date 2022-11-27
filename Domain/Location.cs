@@ -5,11 +5,8 @@ namespace Domain
     /// <summary>
     /// The Location.
     /// </summary>
-    public class Location
+    public class Location : BaseClass
     {
-        [Key]
-        public Guid Id { get; set; }
-
         [Required]
         public string Description { get; set; } = string.Empty;
 

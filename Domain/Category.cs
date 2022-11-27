@@ -1,11 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Domain
+﻿namespace Domain
 {
-    public class Category
+    public class Category : BaseClass
     {
-        [Key]
-        public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public ICollection<Active> Actives { get; set; } = new List<Active>();
     }

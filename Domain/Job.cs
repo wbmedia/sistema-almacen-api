@@ -5,11 +5,8 @@ namespace Domain
     /// <summary>
     /// The Job.
     /// </summary>
-    public class Job
+    public class Job : BaseClass
     {
-        [Key]
-        public Guid Id { get; set; }
-
         [Required]
         public string Description { get; set; } = string.Empty;
 

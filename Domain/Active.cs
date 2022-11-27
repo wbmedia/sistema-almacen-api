@@ -5,11 +5,8 @@ namespace Domain
     /// <summary>
     /// The Active Units.
     /// </summary>
-    public class Active
+    public class Active : BaseClass
     {
-        [Key]
-        public Guid Id { get; set; }
-
         [Required]
         public string Name { get; set; } = string.Empty;
 

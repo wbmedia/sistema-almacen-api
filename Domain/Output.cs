@@ -5,10 +5,8 @@ namespace Domain
     /// <summary>
     /// The Actives Oputput
     /// </summary>
-    public class Output
+    public class Output : BaseClass
     {
-        public Guid Id { get; set; }
-
         [Required]
         public DateTime OutputDate { get; set; }
 
