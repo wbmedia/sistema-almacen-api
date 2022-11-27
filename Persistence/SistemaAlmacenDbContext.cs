@@ -15,5 +15,7 @@ namespace Persistence
         public DbSet<Job> Jobs { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Output> Outputs { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ActiveHistory> activeHistories { get; set; }
     }
 }
